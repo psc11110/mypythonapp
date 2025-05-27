@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') { // Stage to checkout the code
             steps {
-                git url: 'https://github.com/xxyyxxx/jenkinsCI.git', branch: 'master'
+                git url: 'https://github.com/psc11110/mypythonapp.git', branch: 'master'
                 echo 'Code checked out successfully!'
             }
         }
